@@ -1,0 +1,220 @@
+body {
+	font-family: 'Adobe Arabic';
+	font-size:22px;
+    vertical-align: baseline;
+	color:#000;
+	padding:20px;
+	background-color: #EFE0B9;
+}
+.lang-bar {
+	padding:10px;
+}
+.lang-bar li {
+	display:inline;
+	list-style-type: none;
+	font-family:sans-serif;
+	font-size:12px;
+}
+.rightbar ul{
+	float:right;
+}
+a {     
+	padding: 5px;
+	
+}
+a:link,a:hover,a:visited,a:active {color:black;text-decoration: none;}
+.header {
+	background-color:#FBFBFB;
+	border-bottom:6px solid #663300;
+}
+span {
+    margin-left: 5px;
+}
+.header-left-section {
+	float:left;
+	margin-top:50px;
+}
+.header-logo-section {
+	text-align:center;
+	margin-top:-50px;
+}
+.header-right-section {
+	float:right;
+	margin-top:30px;
+}
+input[type=search]{
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+	border-radius: 12px;
+
+}
+
+ .icon {
+	width:20px;
+	height:20px;
+ }
+ .menu ul {
+	padding:10px;
+	text-align:center;
+	direction: rtl;
+ }
+ .menu li {
+	display:inline;
+	padding:30px;
+ }
+ .mnu {
+	 margin-right: 5px;
+ }
+section {
+	background-color:#EFE0B9;
+}
+.slides {
+	margin-bottom:5px;
+	
+}
+.big-photo {
+	text-align: center;
+	height:520px;
+	width:1140px;
+
+}
+.left-banner {
+	padding-top:10px;
+}
+.right-banner {
+	padding-top:10px;
+}
+.advertise {
+	text-align:-webkit-center;
+}
+.items {
+	background-color:white;
+	padding:10px;
+	border:10px solid #FBFBFB;
+}
+
+.item-img {
+	text-align:-webkit-center;
+	background-color:white;
+}
+.item-name {
+	background-color:white;
+	text-align:-webkit-center;
+}
+.item-weight {
+	background-color:white;
+	text-align:-webkit-center;
+}
+.item-brand {
+	background-color:white;
+	text-align:-webkit-center;
+}
+.item-price {
+	background-color:white;
+	text-align:-webkit-center;
+}
+.load-more-products {
+	text-align:-webkit-center;
+	font-size:35px;
+	color:#595959;
+	padding:20px;
+	letter-spacing:1px;
+}
+.related-links {
+	background-color:white;
+	text-align:center;
+}
+.links img {
+	text-align:center;
+	display:inline-block;
+	padding:15px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width: 200px;
+	height: 130px;
+}
+footer {
+	background-color:#FBFBFB;
+}
+.logo-footer {
+	text-align:center;
+	padding:20px;
+
+}
+.small-logo {
+	width: 100px;
+	height: 100px;
+	margin-top: -75px;
+}
+.footer-information {
+	padding:20px;
+	text-align:center;
+}
+.footer-product-img {
+	display:inline-table;
+	width:150px;
+	height: 150px;
+}
+.footer-product {
+	display:inline-table;
+	margin-top:10px;
+}
+.footer-social-links ul {
+	text-align: center;
+	margin-left: -30px;
+}
+.footer-social-links li{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-decoration: none;
+	padding:5px;
+}
+.button {
+	background-color: white; 
+    color: black; 
+    border: 1px solid #663300;
+	border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	transition-duration: 0.4s;
+
+}
+.button:hover {
+     background-color: #663300;
+    color: white;
+}
+.add-item {
+	text-align: center;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    text-align: right;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+    font-family: 'Adobe Arabic';
+    background-color: #663300;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    padding: 0px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ccontactus-form {
+	text-align: right;
+    border-radius: 5px;
+}

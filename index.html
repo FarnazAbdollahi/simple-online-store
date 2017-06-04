@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Chocolate Store</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<div class="lang-bar">
+			<div class="row">
+				<div class="container">
+					<div class="col-md-6">
+						<ul>
+							<li><a href="#" class="active">ENG</a></li>
+							<li><a href="#">DE</a></li>
+							<li><a href="#">PL</a></li>
+						</ul>
+					</div>	
+					<div class="col-md-6 rightbar">
+						<ul>
+							<li><a href="#"  class="active">US</a></li>
+							<li><a href="#">EUR</a></li>
+							<li><a href="#">PLN</a></li>
+						</ul>				
+					</div>
+				</div>	
+			</div>	
+		</div>
+		<div class="header">
+			<div class="container">
+				<div class="row">		
+					<div class="col-md-4">
+						<div class="header-left-section">
+								<button onclick="" type="button" class="button" ><a href="./Shoppingcard.html"><b> مشاهده سبد خرید </b></a></button><span> 0 </span>
+								<br><br>
+								<button onclick="" type="button" class="button"> جستجو</button>
+								<input type="search" name="search" placeholder="جستجوی محصول">
+						</div> 
+					</div>
+					<div class="col-md-4">	
+						<div class="header-logo-section">
+							<a href="index.html"><img  alt="LOGO" src="images/images (1).jpg"></a>
+						</div>
+					</div>	
+					<div class="col-md-4">
+						<div class="header-right-section">
+							<div class="login-register">
+								<br> خوش آمدید،
+								 <a href="./signin.html"><b> ورود به سیستم </b></a>
+								 یا 
+								 <a href="./signup.html"><b> ثبت نام </b></a>
+								<img class="icon" src="./images/user.png" alt="user icon">
+							</div>	
+						</div>	
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="menu">	
+						<ul>
+							<li><a href="./index.html"><b>صفحه اصلی</b></a></li>	
+							<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"><b>انواع محصولات</b><span class="caret mnu"></span></a>
+								<ul class="dropdown dropdown-menu">
+								  <li><a href="#">شکلات صبحانه</a></li>
+								  <li><a href="#">شکلات </a></li>
+								  <li><a href="#">شکلات بار</a></li>
+								</ul>
+							</li>
+							<li><a href="./contactus.html"><b> تماس با ما</b></a></li>
+						</ul>
+					</div>	
+				</div>	
+			</div>	
+		</div>
+		<section><br>
+			<div class="slides">
+				<div class="container">
+					<img class="img-responsive big-photo" src="./images/3.jpg" alt="first slide">
+				</div>
+			</div>
+			<div class="offers">
+				<div class="container">
+					<div class="advertise">
+						<a href="#ads"><img class="img-responsive" src="./images/adshere.jpg" alt="adveritisment" ></a>
+					</div><br>
+				</div>
+			</div>
+			<div class="products">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item1.jpg" alt="item1"> <br>
+							</div>
+							<hr>
+							<div class="item-name ">
+								<p>نام محصول: <b> شکلات صبحانه نوتلا</b></p>
+							</div>
+							<div class="item-brand">
+							<p><b> Nutella </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 350 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 10,000 تومان </b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="addToShpCard();" type="button" class="button" >اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item2.jpg" alt="item2"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b> نوتلا اند گو </b></p>
+							</div>
+							<div class="item-brand">
+								<p> <b> Nutella </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 100 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 8,000 تومان</b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item2">اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item3.jpg" alt="item3"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b> شکلات صبحانه سارل </b></p>
+							</div>
+							<div class="item-brand">
+								<p><b> Sarella </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 350 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 16,000 تومان</b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item3">اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item4.jpg" alt="item4"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b> شکلات صبحانه هوبی </b></p>
+							</div>
+							<div class="item-brand">
+								<p><b> Hobby </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 250 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 12,000 تومان </b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item4" >اضافه کردن به سبد خرید </button>
+							</div>
+						</div>						
+					</div>
+					<div class="row">
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item5.jpg" alt="item5"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b> شکلات بار تویکس </b></p>
+							</div>
+							<div class="item-brand">
+								<p><b> Twix </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 60 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 2,000 تومان </b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item5">اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item6.jpg" alt="item6"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b> شکلات بار کیندر  </b></p>
+							</div>
+							<div class="item-brand">
+								<p><b> Kinder bueno </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 100 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 4,000 تومان </b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item6">اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item7.jpg" alt="item7"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b>  شکلات بار سنیکرز </b></p>
+							</div>
+							<div class="item-brand">
+								<p><b> Snickers </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 50 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 2,000 تومان </b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item7">اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+						<div class="col-md-3 items">
+							<div class="item-img">
+								<img class="img-responsive" src="./images/item8.jpg" alt="item8"> <br>
+							</div>
+							<hr>
+							<div class="item-name">
+								<p>نام محصول: <b> شکلات بار هوبی </b></p>
+							</div>
+							<div class="item-brand">
+								<p><b> Hobby </b>:برند</p>
+							</div>
+							<div class="item-weight">
+								<p>وزن: <b> 40 گرم </b></p>
+							</div>
+							<div class="item-price">
+								<p>قیمت: <b> 2,000 تومان </b></p>
+							</div>
+							<div class="add-item">
+								<button onclick="" type="button" class="button" id="item8">اضافه کردن به سبد خرید </button>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="load-more-products">
+							<a href="#"><p><span class="plus-sign">+</span> مشاهده محصولات بیشتر</p></a>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</section>
+		<div class="related-links">
+			<div class="container">		
+				 <nav class="links">
+					<a href="#"><img class="img-responsive" src="./images/brands01.png" alt="first link"></img></a>	
+					<a href="#"><img class="img-responsive" src="./images/brands02.png" alt="second link"></img></a>
+					<a href="#"><img class="img-responsive" src="./images/brands03.png" alt="third link"></img></a>
+					<a href="#"><img class="img-responsive" src="./images/brands04.png" alt="forth link"></img></a>
+					<a href="#"><img class="img-responsive" src="./images/brands05.png" alt="fifth link"></img></a>				
+				</nav>		
+			</div>	
+		</div><br>
+		<footer><br>
+			<div class="logo-footer">
+			<hr class="footer-logo-line"/>
+				<img alt="LOGO" class="small-logo"src="images/images (1).jpg" alt="small-logo"></img>
+			</div>
+			<div class="footer-information">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">	
+							<h3><b> تماس با ما </b></h3><hr>
+							<p>
+								<b> با ما تماس بگیرید </b>
+								<br><br>
+								<b>:تلفن سفارشات </b>
+								<br>
+								+98 914 702 6056
+								<br>
+								<b>:آدرس مرکزی</b>
+								<br>
+								ایران، تبریز، دانشگاه سراسری تبریز، دانشکده برق و کامپیوتر
+								<br>
+								<b>:پست الکترونیک </b>
+								<br>
+								farnazabdollahi@ymail.com
+							</p>
+							<div class="footer-social-links">
+								<ul>
+									<li><a href="#"><img class="img-responsive social-icons" src="./images/facebook.png" alt="facebook-icon"></a></li>
+									<li><a href="#"><img class="img-responsive social-icons" src="./images/twitter.png" alt="twitter-icon"></a></li>
+									<li><a href="#"><img class="img-responsive social-icons" src="./images/linkedin.png" alt="linkedin-icon"></a></li>
+									<li><a href="#"><img class="img-responsive social-icons" src="./images/googleplus.png" alt="googleplus-icon"></a></li>
+								</ul>				
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h3><b> محصولات جدید </b></h3><hr>
+							<div class="footer-product-offers">
+								<div class="row">
+									<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+										<a href="#"><img class="img-responsive footer-product-img" src="./images/product01-sq.jpg" alt="product"></a>
+									</div>	
+									<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 footer-product">
+										<a href="#">شکلات صبحانه</a>
+										<br> Nutella:برند <br>
+										<span class="product-prices"> 20,000 تومان </span>
+									</div>
+								</div><hr>
+								<div class="row">	
+									<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+										<a href="#"><img class="img-responsive footer-product-img" src="./images/product02-sq.jpg" alt="product"></a>
+									</div>
+									<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 footer-product">
+										<a href="#">شکلات صبحانه</a>
+										<br> Penotti:برند <br>
+										<span class="product-prices"> 20,000 تومان  </span>
+									</div>
+								</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+		<script src="./js/main.js"></script>
+	</body>
+</html>	

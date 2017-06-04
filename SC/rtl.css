@@ -1,0 +1,50 @@
+/* Buttons -  Delete and Like */
+.buttons {
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+.delete-btn {
+	margin-left: 20px;
+	margin-right: auto;
+}
+
+.like-btn {
+	right: 15px;
+	left: auto;
+}
+
+50% {
+	background-position: left;
+}
+
+100% {
+	background-position: left;
+}
+
+/* Product Image */
+.image {
+	margin-left: 50px;
+	margin-right: auto;
+}
+
+/* Product Description */
+.description {
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+/* Product Quantity */
+.quantity {
+	margin-left: 60px;
+	margin-right: auto;
+}
+
+/* Total Price */
+
+/* Responsive */
+@media (max-width: 800px) {
+
+/* Total Price */
+
+}

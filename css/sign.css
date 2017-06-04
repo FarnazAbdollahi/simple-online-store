@@ -1,0 +1,46 @@
+.sign input[type=text], input[type=password], select {
+	font-family: 'Adobe Arabic';
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+.sign button {
+	font-family: 'Adobe Arabic';
+    background-color: #663300;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    padding: 0px 15px;
+    border-radius: 4px;
+}
+
+.sign button:hover {
+    opacity: 0.8;
+
+}
+
+
+.sign .container {
+	font-family: 'Adobe Arabic';
+    padding: 16px;
+}
+
+.sign span.psw {
+    font-family: 'Adobe Arabic';
+    float: right;
+    padding-top: 16px;
+}
+
+h2 {
+	font-family: 'Adobe Arabic';
+    text-align: center;
+}
+section {
+	font-family: 'Adobe Arabic';
+    text-align: right;
+}
